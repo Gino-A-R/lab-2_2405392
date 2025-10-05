@@ -1,0 +1,64 @@
+:root
+{
+    --bg-colour: #070633;
+    --window-colour: #4B4A87;
+    --window-border: #7F7EB1;
+    --text-colour: #CACADB;
+}
+
+*
+{
+    font-family: "Nunito";
+    color: var(--text-colour);
+}
+
+body
+{
+    background-color: var(--bg-colour);
+}
+h1
+{
+    text-align: center;
+}
+
+h2
+{
+    text-align: center;
+}
+
+input
+{
+    border-color: var(--window-border);
+    border-radius: 16px;
+    background-color: var(--window-colour);
+    color: white;
+    margin-left: 7px;
+    margin-bottom: 15px;
+}
+
+.display-window
+{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: var(--window-border);
+    background-color: var(--window-colour);
+    border-width: 2px;
+    border-radius: 16px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.payment-selector
+{
+    margin-bottom: 15px;
+}
+
+.form-buttons
+{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 5px;
+    width: 100px;
+}
