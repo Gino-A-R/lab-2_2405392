@@ -71,6 +71,8 @@ input:hover
 
 .receipt-buttons
 {
+    display: flex;
+    flex-direction: column;
     width: 150px;
     border-style: solid;
     border-width: 1px;
@@ -78,6 +80,7 @@ input:hover
     margin-bottom: 8px;
     background-color: var(--window-border);
     border-color: var(--window-border);
+    align-self: center;
 }
 
 .receipt-buttons:hover
